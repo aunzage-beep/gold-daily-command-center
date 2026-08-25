@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gold-daily-command-center-v2
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
